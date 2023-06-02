@@ -41,18 +41,19 @@ main()
   show_refresh=$(get_tmux_option "@gruvbox-refresh-rate" 5)
 
   # Dracula Color Pallette
-  white='#fbf1c7'
-  gray='#a89984'
-  dark_gray='#282828'
+  white='#d4be98'
+  gray='#d4be98'
+  dark_gray='#32302f'
   light_purple='#d3869b'
   dark_purple='#b16286'
-  cyan='#458588'
-  green='#98971a'
-  orange='#d65d0e'
-  red='#cc241d'
-  pink='#689d6a'
-  yellow='#d79921'
+  cyan='#89b482'
+  green='#a9b665'
+  orange='#e78a4e'
+  red='#ea6962'
+  pink='#89b482'
+  yellow='#d8a657'
 
+  # #282828
 
   # Handle left icon configuration
   case $show_left_icon in
